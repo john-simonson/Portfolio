@@ -1,0 +1,74 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U a1%b			a1.adb			1db1edc1 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D a1.adb		20210528230457 63e7d73f a1%b
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-inteio.ads		20200312110721 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-tiinio.ads		20200312110721 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-imgint.ads		20200312110721 02dbe0c2 system.img_int%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 a1.adb
+6U11*A1 6b11 67l5 67t7
+8I12 Integers 10r56 19r19 27r24 27r38 27r52 40r18
+9k12 Combinations 8z12 14l8 14e20 16b17 43l8 43t20 54r36
+10A12*Combination(8I12)<integer> 11r35 12r34 13r26 17r35 24r34 37r26 56r11[54]
+11U17*First 11=24 17b17 23l11 23t16 58s7[54]
+11a24 X{10A12} 17b24 19m10 20r22 21m13 21r22
+12U17*Next 12=23 24b17 36l11 36t15 61s13[54]
+12a23 X{10A12} 24b23 26r27 27r16 27r69 28m16 28r25 29r32 30m19 30r28
+13U17*Put 13>22 37b17 42l11 42t14 60s13[54]
+13a22 X{10A12} 37b22 39r19 40r34
+20i14 I{integer} 21r16 21r25
+26i14 I{integer} 27r19 27r78 28r19 28r28 29r25
+29i20 J{integer} 30r22 30r31
+39i14 I{integer} 40r37
+45i4 N{integer} 49m8 56r27
+46i4 K{integer} 51m8 53r45
+53I15 K_Range{integer} 54r50
+54K15 Combination_K[9] 55r11
+56a7 X{10A12[54]} 58m14 58r14 60r18 61m19 61r19
+X 2 ada.ads
+16K9*Ada 1|3r6 3r45 4r6 4r41 2|20e8
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 1|4w10 4r45
+X 8 a-textio.ads
+49K13*Text_IO 1|3w10 3r49 8|471e16
+166U14*New_Line 1|60s22
+242U14*Put 1|40s13 48s4 50s4
+X 9 a-tiinio.ads
+56U14*Get 1|49s4[4|18] 51s4[4|18]
+
