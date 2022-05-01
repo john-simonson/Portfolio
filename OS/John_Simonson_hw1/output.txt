@@ -1,0 +1,62 @@
+[jsimonso@mercury1 OS]$ ./a1d &
+[1] 2470529
+[jsimonso@mercury1 OS]$ 
+This is the Parent process report:
+
+PARENT PROG:  Process ID is:		2470529
+PARENT PROG:  Process parent ID is:	1004553
+PARENT PROG:  Real UID is:		59127
+PARENT PROG:  Real GID is:		2020
+PARENT PROG:  Effective UID is:		59127
+PARENT PROG:  Effective GID is:		2020
+PARENT PROG:  Process priority is:	0
+
+PARENT PROG: will now create child, read pipe,
+     signal child, and wait for obituary from child
+
+PARENT PROG: created Child with 2470952 PID
+
+This is the Child process report:
+
+CHILD PROG:  Process ID is:		2470952
+CHILD PROG:  Process parent ID is:	2470529
+CHILD PROG:  Real UID is:		59127
+CHILD PROG:  Real GID is:		2020
+CHILD PROG:  Effective UID is:		59127
+CHILD PROG:  Effective GID is:		2020
+CHILD PROG:  Process priority is:	0
+
+CHILD PROG: about to write pipe and go to endless loop
+
+
+CHILD PROG: Awake in handler - You Got Me With Signal
+PARENT PROG: read pipe and sent SIGTERM, now wait exit
+    Number 15 after spinning for more 
+    than 5381  loop iterations
+CHILD PROG: Now beginning to exec target program, goodbye
+
+This is the Prof process report:
+
+This is the Prof process report:
+
+PROF PROG:  Process ID is:		2470952
+PROF PROG:  Process parent ID is:	2470529
+PROF PROG:  Real UID is:		59127
+PROF PROG:  Real GID is:		2020
+PROF PROG:  Effective UID is:		59127
+PROF PROG:  Effective GID is:		2020
+PROF PROG:  Process priority is:	5
+
+PROF PROG: going into and endless loop, use
+ kill 2470952   to kill me now
+
+kill 2470952
+
+
+PROF PROG: Awake in handler - You Got Me With Signal
+ Number 15 after spinning for more
+ than 6 Billion loop iterations, goodbye
+
+
+PARENT PROG: Child 2470952 exited with exit code 1, goodbye 
+

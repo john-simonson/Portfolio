@@ -1,0 +1,90 @@
+consumer PID 14189    time: 17:41:3:846    dozen number: 1 
+
+Jelly		Coconut		Plain		Glazed
+1		1		1		1
+2		2		2		2
+3		3				3
+						4
+								
+consumer PID 14189    time: 17:41:3:856    dozen number: 2 
+
+Jelly		Coconut		Plain		Glazed
+13		10		11		18
+14		11		12		19
+15						20
+						21
+						22
+								
+consumer PID 14189    time: 17:41:3:867    dozen number: 3 
+
+Jelly		Coconut		Plain		Glazed
+27		24		28		33
+		25		29		34
+		26		30				
+		27		31				
+		28						
+								
+consumer PID 14189    time: 17:41:3:877    dozen number: 4 
+
+Jelly		Coconut		Plain		Glazed
+39		39		42		52
+40		40		43		53
+				44		54
+						55
+						56
+								
+consumer PID 14189    time: 17:41:3:887    dozen number: 5 
+
+Jelly		Coconut		Plain		Glazed
+51		52		59		70
+52		53				71
+53						72
+54						73
+55								
+								
+consumer PID 14189    time: 17:41:3:897    dozen number: 6 
+
+Jelly		Coconut		Plain		Glazed
+69		61		76		86
+70		62		77		87
+71						88
+72						89
+								
+consumer PID 14189    time: 17:41:3:908    dozen number: 7 
+
+Jelly		Coconut		Plain		Glazed
+82		72		92		106
+83		73		93		107
+		74				108
+						109
+						110
+								
+consumer PID 14189    time: 17:41:3:918    dozen number: 8 
+
+Jelly		Coconut		Plain		Glazed
+102		88		105		117
+103				106				
+104				107				
+105								
+106								
+107								
+108								
+								
+consumer PID 14189    time: 17:41:3:928    dozen number: 9 
+
+Jelly		Coconut		Plain		Glazed
+122		105		117		128
+123		106		118				
+124		107		119				
+		108		120				
+								
+consumer PID 14189    time: 17:41:3:939    dozen number: 10 
+
+Jelly		Coconut		Plain		Glazed
+133		119		136		144
+134						145
+135						146
+136						147
+137								
+138								
+								

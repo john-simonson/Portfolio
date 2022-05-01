@@ -1,0 +1,136 @@
+output for 10 dozens and 50 queue slots
+[jsimonso@mercury2 John_Simonson_hw3]$ ./A3_donut_loop.sh 10
+ 
+ 
+ 
+The configuration is for 10 LOOPS
+ 
+___________________________________________________________
+ 
+Working on LOOP 1
+ 
+           CONSUMER 1 DONE
+           CONSUMER 3 DONE
+           CONSUMER 2 DONE
+           CONSUMER 4 DONE
+           CONSUMER 5 DONE
+LOOP 1 COMPLETED SUCCESSFULLY
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19413
+___________________________________________________________
+ 
+Working on LOOP 2
+ 
+           CONSUMER 1 DONE
+           CONSUMER 3 DONE
+           CONSUMER 4 DONE
+           CONSUMER 2 DONE
+           CONSUMER 5 DONE
+LOOP 2 COMPLETED SUCCESSFULLY
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19472
+___________________________________________________________
+ 
+Working on LOOP 3
+ 
+           CONSUMER 1 DONE
+           CONSUMER 2 DONE
+           CONSUMER 3 DONE
+           CONSUMER 4 DONE
+           CONSUMER 5 DONE
+LOOP 3 COMPLETED SUCCESSFULLY
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19521
+___________________________________________________________
+ 
+Working on LOOP 4
+ 
+ 
+DEADLOCK DETECTED ON LOOP 4
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19572
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+___________________________________________________________
+ 
+Working on LOOP 5
+ 
+ 
+DEADLOCK DETECTED ON LOOP 5
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19614
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+___________________________________________________________
+ 
+Working on LOOP 6
+ 
+ 
+DEADLOCK DETECTED ON LOOP 6
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19645
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+___________________________________________________________
+ 
+Working on LOOP 7
+ 
+           CONSUMER 1 DONE
+           CONSUMER 2 DONE
+           CONSUMER 4 DONE
+           CONSUMER 3 DONE
+           CONSUMER 5 DONE
+LOOP 7 COMPLETED SUCCESSFULLY
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19685
+___________________________________________________________
+ 
+Working on LOOP 8
+ 
+           CONSUMER 1 DONE
+           CONSUMER 4 DONE
+           CONSUMER 2 DONE
+           CONSUMER 3 DONE
+           CONSUMER 5 DONE
+LOOP 8 COMPLETED SUCCESSFULLY
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19714
+___________________________________________________________
+ 
+Working on LOOP 9
+ 
+ 
+DEADLOCK DETECTED ON LOOP 9
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19743
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+p operation failed: : Identifier removed
+___________________________________________________________
+ 
+Working on LOOP 10
+ 
+           CONSUMER 1 DONE
+           CONSUMER 2 DONE
+           CONSUMER 3 DONE
+           CONSUMER 4 DONE
+           CONSUMER 5 DONE
+LOOP 10 COMPLETED SUCCESSFULLY
+ 
+>>>>>>>> NOW KILLING THE PRODUCER PROCESS PID: 19776
+___________________________________________________________
+ 
+10 loops and 4 deadlocks
+ 
+

@@ -1,0 +1,90 @@
+Ordinary output:
+-----------------------------------------------
+FILENAME : 			 test.txt
+FILE TYPE:			 ordinary
+PERMISSIONS: 			 rw-r--r--
+OWNER_NAME:			 jsimonso
+GROUP_NAME:			 cs2020
+DATE_OF_LAST_MODIFICATIONS:	 Thu Apr 29 21:02:47 2021
+LINK_COUNT:			 1
+FILE_SIZE:			 6
+INODE_NUMBER:			 10151225353740511313
+------------------------------------------------
+
+Directory output:
+------------------------------------------------
+FILENAME : 			 .
+FILE TYPE:			 directory
+PERMISSIONS: 		         rwxr-xr-x
+OWNER_NAME:			 jsimonso
+GROUP_NAME:			 cs2020
+DATE_OF_LAST_MODIFICATIONS:	 Thu Apr 29 21:16:32 2021
+LINK_COUNT:			 2
+FILE_SIZE:			 4096
+INODE_NUMBER:			 11229670516772122396
+-------------------------------------------------
+
+Symbolic Link output:
+-------------------------------------------------
+FILENAME : 			 symbolic_link
+FILE TYPE:			 symbolic link
+PERMISSIONS: 			 rwxrwxrwx
+OWNER_NAME:			 jsimonso
+GROUP_NAME:			 cs2020
+DATE_OF_LAST_MODIFICATIONS:	 Thu Apr 29 21:19:38 2021
+LINK_COUNT:			 1
+FILE_SIZE:			 7
+INODE_NUMBER:			 9483619406345963914
+--------------------------------------------------
+
+Pipe output:
+--------------------------------------------------
+FILENAME : 			 testpipe
+FILE TYPE:			 pipe
+PERMISSIONS: 			 rw-------
+OWNER_NAME:			 jsimonso
+GROUP_NAME:			 cs2020
+DATE_OF_LAST_MODIFICATIONS:	 Thu Apr 29 21:07:35 2021
+LINK_COUNT:			 1
+FILE_SIZE:			 0
+INODE_NUMBER:			 10131520119408062511
+----------------------------------------------------
+
+UD Socket output: 
+------------------------------------------------------
+FILENAME : 			/run/systemd/journal/stdout
+FILE TYPE:			UD socket
+PERMISSIONS: 			rw-rw-rw-
+OWNER_NAME:			root
+GROUP_NAME:			root
+DATE_OF_LAST_MODIFICATIONS:	Wed Mar  3 11:25:55 2021
+LINK_COUNT:			1
+FILE_SIZE:			0
+INODE_NUMBER:			12610
+------------------------------------------------------
+
+Char device output:
+------------------------------------------------------
+FILENAME : 			/dev/tty
+FILE TYPE:			char dev
+PERMISSIONS: 			rw-rw-rw-
+OWNER_NAME:			root
+GROUP_NAME:			tty
+DATE_OF_LAST_MODIFICATIONS:	Thu Apr 29 21:47:20 2021
+LINK_COUNT:			1
+MAJOR - MINOR CODES:		5, 0
+INODE_NUMBER:			1036
+------------------------------------------------------
+
+Block device output:
+------------------------------------------------------
+FILENAME : 			/dev/sda
+FILE TYPE:			block dev
+PERMISSIONS: 			rw-rw----
+OWNER_NAME:			root
+GROUP_NAME:			disk
+DATE_OF_LAST_MODIFICATIONS:	Wed Mar  3 11:26:01 2021
+LINK_COUNT:			1
+MAJOR - MINOR CODES:		8, 0
+INODE_NUMBER:			13979
+------------------------------------------------------

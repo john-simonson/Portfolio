@@ -1,0 +1,122 @@
+[jsimonso@mercury1 John_Simonson_hw4]$ ./A4_donut_loop.sh 10
+ 
+The configuration is for 10 LOOPS
+ 
+ 
+Working on LOOP 1
+ 
+JOB AND PID IS
+just before threads created
+just after threads created
+Elapsed consumer time is 0 sec and 619627 usec
+
+
+ ALL CONSUMERS FINISHED, KILLING  PROCESS
+
+ 
+Working on LOOP 2
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3173267
+PID REMAINING IS 3173267
+ 
+DEADLOCK DETECTED ON LOOP 2
+ 
+#### KILLING ALL THREADS
+Process exits on SIGNAL 15
+
+ 
+Working on LOOP 3
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3173378
+PID REMAINING IS 3173378
+ 
+DEADLOCK DETECTED ON LOOP 3
+ 
+#### KILLING ALL THREADS
+Process exits on SIGNAL 15
+
+ 
+Working on LOOP 4
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3173490
+Elapsed consumer time is 0 sec and 479057 usec
+
+
+ ALL CONSUMERS FINISHED, KILLING  PROCESS
+
+ 
+Working on LOOP 5
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3173590
+Elapsed consumer time is 0 sec and 488867 usec
+
+
+ ALL CONSUMERS FINISHED, KILLING  PROCESS
+
+ 
+Working on LOOP 6
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3173691
+Elapsed consumer time is 0 sec and 475022 usec
+
+
+ ALL CONSUMERS FINISHED, KILLING  PROCESS
+
+ 
+Working on LOOP 7
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3173791
+Elapsed consumer time is 0 sec and 499703 usec
+
+
+ ALL CONSUMERS FINISHED, KILLING  PROCESS
+
+ 
+Working on LOOP 8
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3173902
+PID REMAINING IS 3173902
+ 
+DEADLOCK DETECTED ON LOOP 8
+ 
+#### KILLING ALL THREADS
+Process exits on SIGNAL 15
+
+ 
+Working on LOOP 9
+ 
+just before threads created
+just after threads created
+JOB AND PID IS 3174041
+Elapsed consumer time is 0 sec and 493161 usec
+
+
+ ALL CONSUMERS FINISHED, KILLING  PROCESS
+
+ 
+Working on LOOP 10
+ 
+just before threads created
+JOB AND PID IS 3174156
+just after threads created
+Elapsed consumer time is 0 sec and 485409 usec
+
+
+ ALL CONSUMERS FINISHED, KILLING  PROCESS
+
+10 loops and 3 deadlocks
+
